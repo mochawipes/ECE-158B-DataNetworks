@@ -6,6 +6,7 @@
 //  Copyright © 2016 Theano Georgoulakis. All rights reserved.
 //
 
+#include <stdio.h>
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    printf("I can't wait to push this project to Github");
 }
 
 - (void)didReceiveMemoryWarning {
